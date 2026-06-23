@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="CookCue is a magnetic AI cooking timer for healthier home meals. It turns messy recipe steps into clear local countdowns."
+    />
+    <meta property="og:title" content="CookCue | Healthy home cooking, without the timer chaos" />
+    <meta
+      property="og:description"
+      content="A magnetic AI cooking timer that understands what you are making, clarifies when to start, and keeps countdowns local."
+    />
+    <meta property="og:image" content="./assets/hero-kitchen-timer.jpg" />
+    <title>CookCue | AI Cooking Timer</title>
+    <link rel="preload" href="./assets/hero-kitchen-timer.jpg" as="image" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header" aria-label="CookCue navigation">
+      <a class="brand" href="#top" aria-label="CookCue home">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>CookCue</span>
+      </a>
+      <nav class="nav-links" aria-label="Page sections">
+        <a href="#how-it-works">How it works</a>
+        <a href="#scenes">Use cases</a>
+        <a href="#reserve">Reserve</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-label="CookCue launch story">
+        <img
+          class="hero-image"
+          src="./assets/hero-kitchen-timer.jpg"
+          alt="A magnetic cooking timer on a refrigerator next to salmon, broccoli, eggs, rice, and a steaming pot."
+        />
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <p class="eyebrow">Magnetic AI cooking timer</p>
+          <h1>Healthy home cooking, without the timer chaos.</h1>
+          <p class="hero-copy">
+            CookCue turns messy recipe steps into clear local countdowns, so you know when to
+            start: after boiling, after steaming, after preheating, or after flipping.
+          </p>
+          <div class="hero-actions" aria-label="Primary actions">
+            <a class="primary-button" href="#reserve">Join the early list</a>
+            <a class="secondary-button" href="#story">See the story</a>
+          </div>
+          <dl class="signal-row" aria-label="Validation signals">
+            <div>
+              <dt>$49-$79</dt>
+              <dd>target test range</dd>
+            </div>
+            <div>
+              <dt>Local</dt>
+              <dd>countdowns keep running</dd>
+            </div>
+            <div>
+              <dt>One press</dt>
+              <dd>ask while cooking</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+
+      <section class="section story-section" id="story">
+        <div class="section-heading">
+          <p class="eyebrow">The real moment</p>
+          <h2>Recipes tell you how long. CookCue tells you when to start.</h2>
+        </div>
+        <div class="story-grid">
+          <article class="story-panel">
+            <span class="step-index">01</span>
+            <h3>Your hands are busy.</h3>
+            <p>
+              You are prepping salmon, eggs, rice, and vegetables. The recipe says 9 minutes,
+              but the real question is whether that starts now, after the water boils, or after
+              steam appears.
+            </p>
+          </article>
+          <article class="story-panel">
+            <span class="step-index">02</span>
+            <h3>You press and ask.</h3>
+            <p>
+              Say “meal prep salmon, eggs, and broccoli.” CookCue gives clear timer suggestions
+              with assumptions and food-safety notes, then waits for confirmation.
+            </p>
+          </article>
+          <article class="story-panel">
+            <span class="step-index">03</span>
+            <h3>The timer runs locally.</h3>
+            <p>
+              AI helps create the plan. The actual countdown stays on the device, so a weak
+              kitchen Wi-Fi signal does not ruin dinner.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section split-section" id="how-it-works">
+        <div class="device-demo" aria-label="CookCue device preview">
+          <div class="demo-device">
+            <div class="demo-screen">
+              <span class="demo-status">Ready</span>
+              <strong>Broccoli</strong>
+              <span>After boiling</span>
+              <b>03:00</b>
+              <div class="demo-progress"><span></span></div>
+            </div>
+            <button type="button" aria-label="CookCue main button"></button>
+          </div>
+        </div>
+        <div class="copy-stack">
+          <p class="eyebrow">Built for healthy routines</p>
+          <h2>It helps the meals you planned actually happen.</h2>
+          <p>
+            Healthy eating often fails at the execution layer: too many steps, too many browser
+            tabs, too many timers, and too much guessing. CookCue stays in the kitchen and turns
+            cooking intent into calm, visible countdowns.
+          </p>
+          <ul class="check-list">
+            <li>Meal prep salmon, eggs, broccoli, rice, chicken, and air-fryer meals.</li>
+            <li>Clarifies trigger moments like “after boiling” and “after preheating.”</li>
+            <li>Uses conservative guidance for meat, seafood, eggs, and high-risk foods.</li>
+            <li>Works as a simple manual timer when you already know the time.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section scenes-section" id="scenes">
+        <div class="section-heading compact">
+          <p class="eyebrow">Test messages</p>
+          <h2>Designed around cooking prompts people already say.</h2>
+        </div>
+        <div class="scene-list" aria-label="Example cooking prompts">
+          <article class="scene-item">
+            <span>Meal prep</span>
+            <h3>“Prep salmon, eggs, and broccoli for the week.”</h3>
+            <p>Multiple healthy staples become clear timer suggestions with start conditions.</p>
+          </article>
+          <article class="scene-item">
+            <span>Busy parents</span>
+            <h3>“Chicken breast without drying it out.”</h3>
+            <p>CookCue gives a practical countdown and reminds users to adjust by thickness.</p>
+          </article>
+          <article class="scene-item">
+            <span>Smart-home users</span>
+            <h3>“Set a timer after the water boils.”</h3>
+            <p>A dedicated screen makes cooking timers visible instead of hidden in a speaker.</p>
+          </article>
+          <article class="scene-item">
+            <span>New cooks</span>
+            <h3>“Boil eggs for ramen.”</h3>
+            <p>Turns vague cooking intent into a simple time, texture, and next-step reminder.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section proof-section" aria-label="Why this is different">
+        <div class="proof-copy">
+          <p class="eyebrow">Why not just use a phone?</p>
+          <h2>A phone timer counts. CookCue understands the cooking context.</h2>
+        </div>
+        <div class="proof-table" role="table" aria-label="CookCue comparison">
+          <div class="proof-row proof-header" role="row">
+            <span role="columnheader">Need</span>
+            <span role="columnheader">Phone timer</span>
+            <span role="columnheader">Voice speaker</span>
+            <span role="columnheader">CookCue</span>
+          </div>
+          <div class="proof-row" role="row">
+            <span role="cell">Understands dish context</span>
+            <span role="cell">No</span>
+            <span role="cell">Sometimes</span>
+            <span role="cell">Yes</span>
+          </div>
+          <div class="proof-row" role="row">
+            <span role="cell">Shows start condition</span>
+            <span role="cell">No</span>
+            <span role="cell">Rarely</span>
+            <span role="cell">Yes</span>
+          </div>
+          <div class="proof-row" role="row">
+            <span role="cell">Keeps countdown local</span>
+            <span role="cell">Yes</span>
+            <span role="cell">Depends</span>
+            <span role="cell">Yes</span>
+          </div>
+          <div class="proof-row" role="row">
+            <span role="cell">Stays visible in the kitchen</span>
+            <span role="cell">Not always</span>
+            <span role="cell">No screen</span>
+            <span role="cell">Yes</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reserve-section" id="reserve">
+        <div class="reserve-copy">
+          <p class="eyebrow">Crowdfunding validation</p>
+          <h2>Help shape the first batch.</h2>
+          <p>
+            We are testing whether home cooks want a dedicated cooking timer for healthier meals.
+            Join the early list, choose a target price, and tell us which cooking moment matters
+            most to you.
+          </p>
+          <div class="platform-note">
+            <strong>Planned validation path:</strong>
+            landing page test, prototype video, refundable reservation, then Kickstarter or
+            regional crowdfunding depending on demand.
+          </div>
+        </div>
+
+        <form class="signup-form" id="signupForm" data-endpoint="">
+          <label>
+            <span>Email</span>
+            <input id="emailInput" name="email" type="email" autocomplete="email" placeholder="you@example.com" required />
+          </label>
+          <label>
+            <span>What would you use it for?</span>
+            <select id="useCaseInput" name="use_case" required>
+              <option value="">Choose one</option>
+              <option value="meal-prep">Healthy meal prep</option>
+              <option value="busy-family">Busy family cooking</option>
+              <option value="new-cook">Learning to cook</option>
+              <option value="smart-home">Better smart-home timer</option>
+              <option value="other">Something else</option>
+            </select>
+          </label>
+          <fieldset>
+            <legend>Target early-bird price</legend>
+            <div class="price-options">
+              <label><input type="radio" name="price" value="49" required /> <span>$49</span></label>
+              <label><input type="radio" name="price" value="79" /> <span>$79</span></label>
+              <label><input type="radio" name="price" value="99" /> <span>$99</span></label>
+            </div>
+          </fieldset>
+          <label>
+            <span>Which country are you in?</span>
+            <input id="countryInput" name="country" type="text" autocomplete="country-name" placeholder="United States" />
+          </label>
+          <button class="primary-button form-submit" type="submit">Join the validation list</button>
+          <p class="form-note" id="formNote">
+            No spam. Connect a form endpoint before paid traffic; local storage is used as a prototype fallback.
+          </p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>CookCue validation concept by Smart Kitchen Timer</span>
+      <a href="#top">Back to top</a>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
